@@ -13,6 +13,13 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#contactbody {
+    background-image: url('assets/images/downdog.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 header {
     background-color: #dddedf;
     padding: 20px;
