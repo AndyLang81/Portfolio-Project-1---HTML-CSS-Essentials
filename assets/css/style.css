@@ -14,11 +14,18 @@ body {
 }
 
 #contactbody {
-    background-image: url('assets/images/downdog.avif');
+
+    background-image: url("../images/flower.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+
 
 header {
     background-color: #dddedf;
@@ -36,7 +43,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #161616;
+    background-color: #16161688;
     padding: 10px;
     z-index: 1000;
 }
@@ -113,9 +120,14 @@ p {
     }
 
     .trainerphoto {
-        width: 40%;
+        width: 100%; 
+        max-width: 100%; 
+        
     }
+
+  
 }
+
 
 @media screen and (min-width: 768px) {
     #photos {
