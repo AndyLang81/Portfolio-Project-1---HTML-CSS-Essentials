@@ -10,46 +10,55 @@
 
 <body id="contactbody">
     <nav>
-        <a href="index.html#who">WHO ARE WE</a>
-        <a href="index.html#trainers">TRAINERS</a>
-        <a href="index.html#yoga">YOGA</a>
-        <a href="index.html#gallery">GALLERY</a>
-        <a href="contact.html">CONTACT ME</a>
+        <a href="index.html#who" aria-label="Go to the section 'Who Are We'">WHO ARE WE</a>
+        <a href="index.html#trainers" aria-label="Go to the section 'Trainers'">TRAINERS</a>
+        <a href="index.html#yoga" aria-label="Go to the section 'Yoga'">YOGA</a>
+        <a href="index.html#gallery" aria-label="Go to the section 'Gallery'">GALLERY</a>
+        <a href="contact.html" aria-label="Go to the 'Contact Me' section">CONTACT ME</a>
     </nav>
 
 
-<div id="contactform">
-    <div>
-        <p>Would you like to be contacted to join our yoga club? Below you can let us know your interest and preferred contact method, and we'll be delighted to get in touch with you.</p>
-    </div>
-    <br>
-    <br>
+    <div id="contactform">
+        <div>
+            <p>Would you like to be contacted to join our yoga club? Below you can let us know your interest and
+                preferred contact method, and we'll be delighted to get in touch with you.</p>
+        </div>
+        <br>
+        <br>
 
-    <form action="https://formdump.codeinstitute.net" method="POST">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name"><br><br>
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name"><br><br>
 
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email"><br><br>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email"><br><br>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="3" cols="50"></textarea><br><br>
+            <label for="phone">Your Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
 
-        <input type="submit" value="Submit" action="https://formdump.codeinstitute.net/">
-    </form>
-    
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="3" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
         <p>If you want to see more while we get back to you,
             you can follow us here.</p>
 
         <div id="signupfollowbar">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://www.x.com/" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="opens Facebook in a new tab"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="opens Instagram in a new tab"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="opens YouTube in a new tab"><i
+                    class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="opens X/Twitter in a new tab"><i
+                    class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </div>
-</div>
 
 
-<script src="https://kit.fontawesome.com/a3a281f608.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a3a281f608.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
