@@ -140,8 +140,6 @@ p {
     text-decoration: none;
 }
 
-
-}
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -208,6 +206,7 @@ p {
         color: slategray;
         font-family: 'Rock Salt', 'Roboto Condensed', sans-serif;
         font-size: 120%;
+}
 }
 @media screen and (min-width: 1200px) {
     #photos {
