@@ -123,6 +123,25 @@ p {
     margin: 0 20px;
     text-decoration: none;
 }
+
+#signupfollowbar {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    color: white;
+    font-size: 120%;
+    
+}
+#signupfollowbar a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+
+}
 #photos img {
     width: 100%;
     line-height: 1em;
