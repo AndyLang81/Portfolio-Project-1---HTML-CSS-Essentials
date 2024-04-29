@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=WindSong:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Meddon&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=WindSong:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Meddon&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=WindSong:wght@400;500&display=swap');
-
 body {
     margin: 0;
     padding: 0;
@@ -13,54 +12,51 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#contactbody {
+    background-image: url('assets/images/downdog.avif');
+
+    background-image: url("../images/flower.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#audiobutton {
+    position: fixed;
+    top: 40px;
+    right: 0;
+}
+    
+
+header {
+    background-color: #dddedf;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    color: slategray;
+    font-family: 'Euphoria Script', 'Roboto Condensed', sans-serif;
+    font-size: 260%;
+}
 nav {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #161616;
     background-color: #16161688;
     padding: 10px;
     z-index: 1000;
 }
-
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/hero-cut2.jpg") no-repeat center center/cover;
-    position: relative;
-}
-
-#cover-text h2 {
-    font-family: 'Euphoria Script', 'Roboto Condensed', sans-serif;
-    font-size: 500%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+nav a {
     color: white;
-    margin: 0;
-}
-
-#who,
-#yoga {
-    text-align: left;
-}
-
-#footer {
-    background-color: black;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0px;
-    color: white;
-}
-
-#footer a {
-    color: white;
-    margin: 0 20px;
     text-decoration: none;
+    margin: 0 10px;
 }
-
 p {
     margin-top: 20px;
     max-width: 60%;
@@ -71,59 +67,85 @@ p {
     font-size: 1.2em;
     margin-bottom: 2em;
 }
-
 .trainer {
     display: flex;
     align-items: center;
 }
-
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-cut2.jpg") no-repeat center center/cover;
+    position: relative;
+}
+#cover-text h2 {
+    font-family: 'Euphoria Script', 'Roboto Condensed', sans-serif;
+    font-size: 500%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0;
+}
+#footer {
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    color: white;
+}
+#footer a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
 #photos img {
     width: 100%;
     line-height: 1em;
 }
-
 .flex-container {
     display: flex;
     flex-direction: column-reverse;
 }
-
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
     }
 
     .trainerphoto {
-        width: 100%;
-        max-width: 100%;
+        width: 40%;
+        width: 100%; 
+        max-width: 100%; 
+
     }
+
+
 }
+
 
 @media screen and (min-width: 768px) {
     #photos {
         column-count: 3;
     }
-
     .trainerphoto {
         width: 45%;
     }
 }
-
 @media screen and (min-width: 1200px) {
     #photos {
         column-count: 4;
     }
-
     .flex-container {
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-
     .image-container {
         order: 2;
         flex: 0 0 33%;
     }
-
     .text-container {
         order: 1;
         flex: 0 0 67%;
