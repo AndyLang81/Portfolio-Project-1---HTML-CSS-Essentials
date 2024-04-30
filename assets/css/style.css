@@ -149,12 +149,12 @@ p {
 }
 .flex-container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 #map {
     width: 100%;
-    height: 200px;
+    height: 250px;
 
 }
 
@@ -167,20 +167,7 @@ p {
     margin: 0 auto;
 }
 
-.contact-info-item {
-    width: 50%;
-}
 
-.divider {
-    text-align: center;
-    margin-top: 45px;
-    margin-bottom: 45px;
-}
-
-.divider i {
-    font-size: 24px; 
-    color: #000000a1; 
-}
 
 
 /* media queries */
