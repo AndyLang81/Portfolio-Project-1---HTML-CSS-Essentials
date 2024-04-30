@@ -63,8 +63,8 @@ h2 {
 }
 nav {
     top: 0;
-    left: 0; /* Adjust to align the navbar to the left edge */
-    width: 100%; /* Ensure the navbar spans the full width of the screen */
+    left: 0;
+    width: 100%;
     background-color: #161616;
     z-index: 1000;
     padding-top: 10px;
@@ -150,6 +150,12 @@ p {
 .flex-container {
     display: flex;
     flex-direction: column-reverse;
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+
 }
 
 
