@@ -120,11 +120,13 @@ p {
     bottom: 0px;
     color: white;
     
+    
 }
 #footer a {
     color: white;
     margin: 0 20px;
     text-decoration: none;
+    font-size: 18px;
 }
 
 #signupfollowbar {
