@@ -36,7 +36,6 @@ body {
 
 #contactform {
     position: absolute;
-    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #201d1d27;
@@ -44,11 +43,13 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     
 
 }
 
 #contactbody {
-    width: 100%;
+    width: 100%;    
+    
 }
 
 header {
@@ -137,6 +138,7 @@ p {
     bottom: 0px;
     color: white;
     font-size: 120%;
+    flex-wrap: wrap;
 }
 #footer a {
     color: white;
@@ -230,9 +232,12 @@ p {
     #followsmall {
         display: none;
     }
-    
- 
+
+    #contactform {
+        top: 50%; 
+    }
 }
+    
 
 /* 400px to 599px */
 @media screen and (min-width: 400px) and (max-width: 599px) {
