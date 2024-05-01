@@ -25,7 +25,7 @@ p {
     text-align: left;
     font-size: 1.2em;
     margin-bottom: 2em;
-    color: slategray;
+    color: #708090;
 }
 #join,
 #yoga,
@@ -36,13 +36,13 @@ p {
 }
 h2 {
     text-align: center;
-    color: slategray;
+    color: #708090;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 180%;
 }
 h3 {
     text-align: center;
-    color: slategray;
+    color: #708090;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 110%;
 }
@@ -59,7 +59,7 @@ nav {
     position: fixed;
 }
 nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -79,7 +79,7 @@ nav a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #ffffff;
     margin: 0;
 }
 #audiobutton {
@@ -105,12 +105,12 @@ nav a {
     justify-content: center;
     align-items: center;
     bottom: 0px;
-    color: white;
+    color: #ffffff;
     font-size: 120%;
     flex-wrap: wrap;
 }
 #footer a {
-    color: white;
+    color: #ffffff;
     margin: 0 20px;
     text-decoration: none;
 }
@@ -122,11 +122,11 @@ nav a {
     justify-content: center;
     align-items: center;
     bottom: 0px;
-    color: white;
+    color: #ffffff;
     font-size: 120%;
 }
 #signupfollowbar a {
-    color: white;
+    color: #ffffff;
     margin: 0 20px;
     text-decoration: none;
 }
@@ -161,7 +161,7 @@ nav a {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #201d1d27;
-    color: white;
+    color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
