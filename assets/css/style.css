@@ -13,12 +13,12 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 #contactbody {
-    background-image: url('assets/images/downdog.avif');
-    background-image: url("../images/flower.jpg");
+    background-image: url("../images/contactpagebg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-color: #161616;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -38,9 +38,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     top: 50%;   
-}
-#contactbody {
-    width: 100%;
+
 }
 header {
     background-color: #dddedf;
@@ -90,8 +88,9 @@ p {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-cut2.jpg") no-repeat center center/cover;
+    background: url("../images/heroimage.jpg") no-repeat center center/cover;
     position: relative;
+    background-color: #161616;
 }
 #cover-text h2 {
     font-family: 'Rock Salt', 'Roboto Condensed', sans-serif;
@@ -105,7 +104,7 @@ p {
 }
 #join,
 #yoga,
-#who,
+#aboutus,
 #trainers {
     padding-top: 100px;
     padding-bottom: 100px;
