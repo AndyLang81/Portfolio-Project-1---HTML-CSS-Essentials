@@ -239,4 +239,6 @@ p {
     #photos {
         column-count: 4;
     }
+    .trainerphoto {
+        width: 85%;
 }
