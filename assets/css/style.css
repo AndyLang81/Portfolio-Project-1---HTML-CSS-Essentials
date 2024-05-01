@@ -1,3 +1,4 @@
+/* General styles */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=WindSong:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Meddon&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=WindSong:wght@400;500&display=swap');
@@ -14,55 +15,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#contactbody {
-    background-image: url('assets/images/downdog.avif');
-
-    background-image: url("../images/flower.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-
-}
-
-#audiobutton {
-    position: fixed;
-    top: 40px;
-    right: 0;
-}
-
-#contactform {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #201d1d27;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-}
-
-#contactbody {
-    width: 100%;
-}
-
-header {
-    background-color: #dddedf;
-    padding: 20px;
-}
-
-h2 {
-    text-align: center;
-    color: slategray;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 180%;
-}
-
+/* Navigation styles */
 nav {
     top: 0;
     left: 0;
@@ -80,96 +33,49 @@ nav a {
     margin: 0 10px;
 }
 
-p {
-    margin-top: 20px;
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px;
-    text-align: left;
-    font-size: 1.2em;
-    margin-bottom: 2em;
+/* Head styles */
+head {
+    background-color: #dddedf;
+    padding: 20px;
 }
 
-.trainer {
-    display: flex;
-    align-items: center;
+header {
+    background-color: #dddedf;
+    padding: 20px;
 }
 
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/hero-cut2.jpg") no-repeat center center/cover;
-    position: relative;
+/* Header styles */
+h2 {
+    text-align: center;
+    color: slategray;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 180%;
 }
 
-#cover-text h2 {
-    font-family: 'Rock Salt', 'Roboto Condensed', sans-serif;
-    font-size: 500%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    margin: 0;
-}
-
-#join,
-#yoga,
+/* Section styles */
 #who,
-#trainers {
+#trainers,
+#yoga,
+#gallery,
+#join,
+#contact-info,
+#signupform,
+#footer {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-#footer {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0px;
-    color: white;    
-}
-#footer a {
-    color: white;
-    margin: 0 20px;
-    text-decoration: none;
-}
-
-#signupfollowbar {
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0px;
-    color: white;
-    font-size: 120%;
-
-}
-
-#signupfollowbar a {
-    color: white;
-    margin: 0 20px;
-    text-decoration: none;
-}
-
+/* Gallery section styles */
 #photos img {
     width: 100%;
     line-height: 1em;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-}
-
+/* Contact info section styles */
 #map {
     width: 100%;
     height: 250px;
-
 }
-
-
 
 #contact-info {
     max-width: 100%;
@@ -184,12 +90,36 @@ p {
     text-align: center;
 }
 
+/* Signup form section styles */
+#signupform {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #201d1d27;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+/* Footer styles */
+#footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    color: white;
+}
 
+#footer a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
 
-
-
-/* sub 400px */
+/* Media queries */
 @media screen and (max-width: 399px) {
     #photos {
         column-count: 1;
@@ -215,13 +145,11 @@ p {
         display: none;
     }
 
-    .contact-info-item  {
+    .contact-info-item {
         display: none;
     }
-        
 }
 
-/* 400px to 599px */
 @media screen and (min-width: 400px) and (max-width: 599px) {
     #photos {
         column-count: 1;
@@ -242,10 +170,8 @@ p {
     #cover-text h2 {
         font-size: 350%;
     }
- 
 }
 
-/* 600px to 799px */
 @media screen and (min-width: 600px) and (max-width: 799px) {
     #photos {
         column-count: 2;
@@ -260,7 +186,6 @@ p {
     }
 }
 
-/* 800px to 1199px */
 @media screen and (min-width: 800px) and (max-width: 1199px) {
     #photos {
         column-count: 2;
@@ -275,7 +200,6 @@ p {
     }
 }
 
-/* above 1200px */
 @media screen and (min-width: 1200px) {
     #photos {
         column-count: 4;
