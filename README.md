@@ -111,10 +111,34 @@ User clicking submit with these two filts filled, the from will validate and ret
 
 ![alt text](images-for-readme/form-succes-test.png)
 
+### Map and back to top testing
+
+User clicking the link "Send me back to the top" will be sent back to the hero image and the main nav bar.
+
+![alt text](images-for-readme/top-test.png)
 
 
+### Footer and contact form social links testing
 
+User clicking the F in the footer or at the bottom of the contact field will result in https://www.Facebook.com/ opening in a new tab.
 
+![alt text](images-for-readme/f-test.png)
+
+User clicking the camera in the footer or at the bottom of the contact field will result in https://www.instagram.com/ opening in a new tab.
+
+![alt text](images-for-readme/i-test.png)
+
+User clicking the playbutton in the footer or at the bottom of the contact field will result in https://www.youtube.com/ opening in a new tab.
+
+![alt text](images-for-readme/y-test.png)
+
+User clicking the X in the footer or at the bottom of the contact field will result in https://www.X.com/ opening in a new tab.
+
+![alt text](images-for-readme/X-test.png)
+
+User interacting with the map with the mouse on laptop/destop will result in moving Google maps. User interacting with two fingers on mobile devices will result in moving the map. Due to a lack of a valid API key, there is no clickable link to follow directions from.
+
+![alt text](images-for-readme/maptest.png)
 
 ### Validation
 
@@ -163,7 +187,7 @@ The main ones were the text on the hero image causing the rest of the content to
 
 Another bug was after using https://codebeautify.org/ to re-format the style.css, which essentially condensed it to the point of breaking by rearranging and merging rules. Ultimately, I resorted to taking my last committed css from the working live site via my GitHub-repository and re-inserting the functional code and condensing it by hand.
 
-One issue I cannot get rid of is that the frameborder on the iframe causes (border x2 px) horizontal scroll, but if I don't remove it, the validator is causing issues, and it doesn't seem to work in the css.
+One issue I cannot get rid of is that the frameborder on the iframe causes (border x2 px) horizontal scroll, but if I don't remove it, the validator is causing issues, and it doesn't seem to work in the css, so it must be kept in the HTML coding for now.
 
 ## IDE
 
