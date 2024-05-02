@@ -91,7 +91,28 @@ Clicking the link "Yoga" will lead the user to an introduction to the three diff
 
 Clicking the link "Gallery" will lead the user to the image gallery, found on the main page.
 
+![alt text](gallery-test.png)
+
 Clicking the link "Contact me" will lead the user to the separate page with a contact form.
+
+![alt text](contact-test-1.png)
+
+### Contact form testing:
+
+User clicking submit without entering a name will result in an error requiring a name to be entered.
+
+![alt text](images-for-readme/name-error-test.png)
+
+User clicking submit without entering an email address will result in an error requiring a valid email containing an @ to be entered.
+
+![alt text](images-for-readme/mail-error-test.png)
+
+User clicking submit with these two filts filled, the from will validate and return the following info.
+
+![alt text](images-for-readme/form-succes-test.png)
+
+
+
 
 
 
