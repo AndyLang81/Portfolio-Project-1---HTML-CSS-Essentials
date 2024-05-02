@@ -25,7 +25,7 @@ p {
     text-align: left;
     font-size: 1.2em;
     margin-bottom: 2em;
-    color: #708090;
+    color: #36383b;
 }
 #join,
 #yoga,
@@ -37,13 +37,13 @@ p {
 }
 h2 {
     text-align: center;
-    color: #708090;
+    color: #36383b;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 180%;
 }
 h3 {
     text-align: center;
-    color: #708090;
+    color: #36383b;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 110%;
 }
