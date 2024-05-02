@@ -69,9 +69,31 @@ It could be beneficial to users with a library of video segments on different ex
 
 # Testing:
 
+The site has been simulated via Chromes Devtools on Galaxy Z Fold 5, iPad Pro and responsive setting through all breakpoints listed in the media queries. Tested in Chrome, Firefox, Edge, Brave.
+
 ### Manual testing:
 
-The site has been simulated via Chromes Devtools on Galaxy Z Fold 5, iPad Pro and responsive setting through all breakpoints listed in the media queries. Tested in Chrome, Firefox, Edge, Brave.
+On the landing page, user will see the Navigation bar with the links 
+
+![alt text](images-for-readme/navbar-and-audioplayer.png)
+
+Clicking on the link "About us" will lead the user to the section describing Zenflow and their mission, found on the main page.
+
+![alt text](images-for-readme/About-test.png)
+
+Clicking the link "Trainers" will lead the user to an introduction to the three different trainers, found on the main page. They do not have a link each.
+
+![alt text](images-for-readme/trainer-test.png)
+
+Clicking the link "Yoga" will lead the user to an introduction to the three different types of yoga practiced at the studio, found on the main page.
+
+![alt text](images-for-readme/yoga-test.png)
+
+Clicking the link "Gallery" will lead the user to the image gallery, found on the main page.
+
+Clicking the link "Contact me" will lead the user to the separate page with a contact form.
+
+
 
 ### Validation
 
@@ -89,6 +111,28 @@ The site is deployed with GitHub.
 A link to the repository can be found [here](https://github.com/AndyLang81/Portfolio-Project-1---HTML-CSS-Essentials) 
 
 The live page can be found by going to the top bar and selecting Settings > Pages > GitHub Pages.
+
+Steps to deploy: Upon opening the dashboard, user should see their active repositories on the profile.
+
+![alt text](images-for-readme/repositories.png)
+
+Upon selecting the repository in question (Portfolio-Project-1), user should see the bar with general options in the top portion of the screen. 
+
+![alt text](images-for-readme/optionsbar.png)
+
+User should click on "Settings" which opens the General page with a column of options on the left hand side.
+
+![alt text](images-for-readme/general-column.png)
+
+Here, user should click on "Pages", which will open the page "GitHub Pages" and find the section in the main screen labelled "Build and deployment."
+
+![alt text](images-for-readme/branchdeploy.png)
+
+After ensuring main and /root are selected and clicking "Save" user will see their deployed pages in the section above labelled "GitHub Pages."
+
+![alt text](images-for-readme/livepages.png)
+
+Clicking the link in the box will lead the user to the live site.
 
 ## Bugs
 
