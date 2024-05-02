@@ -144,6 +144,7 @@ nav a {
     text-align: center;
 }
 
+
 /*styling for contact form in contact.html*/
 #contactbody {
     background-image: url("../images/contactpagebg.jpg");
@@ -166,7 +167,10 @@ nav a {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     top: 50%;
+}
 
+#contactform p {
+    color: #ffffff;
 }
 
 /*Media queries*/
