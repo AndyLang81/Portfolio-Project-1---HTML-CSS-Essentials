@@ -6,7 +6,6 @@ Zenflow Yoga is a testing site based on the fictive yoga club. It is targeting t
 
 ![alt text](/images-for-readme/responsiveness.png)
 
-
 # Features
 
 #### Navigation bar
@@ -73,7 +72,7 @@ The site has been simulated via Chromes Devtools on Galaxy Z Fold 5, iPad Pro an
 
 ### Manual testing:
 
-On the landing page, user will see the Navigation bar with the links 
+On the landing page, user will see the Navigation bar with the links. 
 
 ![alt text](images-for-readme/navbar-and-audioplayer.png)
 
@@ -107,7 +106,7 @@ User clicking submit without entering an email address will result in an error r
 
 ![alt text](images-for-readme/mail-error-test.png)
 
-User clicking submit with these two filts filled, the from will validate and return the following info.
+User clicking submit with these two boxes filled will cause the form to validate and return the following info.
 
 ![alt text](images-for-readme/form-succes-test.png)
 
@@ -116,7 +115,6 @@ User clicking submit with these two filts filled, the from will validate and ret
 User clicking the link "Send me back to the top" will be sent back to the hero image and the main nav bar.
 
 ![alt text](images-for-readme/top-test.png)
-
 
 ### Footer and contact form social links testing
 
@@ -128,7 +126,7 @@ User clicking the camera in the footer or at the bottom of the contact field wil
 
 ![alt text](images-for-readme/i-test.png)
 
-User clicking the playbutton in the footer or at the bottom of the contact field will result in https://www.youtube.com/ opening in a new tab.
+User clicking the play button in the footer or at the bottom of the contact field will result in https://www.youtube.com/ opening in a new tab.
 
 ![alt text](images-for-readme/y-test.png)
 
@@ -136,7 +134,7 @@ User clicking the X in the footer or at the bottom of the contact field will res
 
 ![alt text](images-for-readme/X-test.png)
 
-User interacting with the map with the mouse on laptop/destop will result in moving Google maps. User interacting with two fingers on mobile devices will result in moving the map. Due to a lack of a valid API key, there is no clickable link to follow directions from.
+User interacting with the map with the mouse on laptop/desktop will result in moving Google maps. User interacting with two fingers on mobile devices will result in moving the map. Due to a lack of a valid API key, there is no clickable link to follow directions from.
 
 ![alt text](images-for-readme/maptest.png)
 
@@ -209,12 +207,12 @@ Filler text for About Us, Trainers and Types of Yoga is AI generated as the proj
 
 Text for categories, nav links, headings are written by the developer.
 
-
 ## Media sources
 Images: https://unsplash.com/
 
 Audio: https://freesound.org/
 
 Icons: https://fontawesome.com, https://icons8.com/
+
 
 
