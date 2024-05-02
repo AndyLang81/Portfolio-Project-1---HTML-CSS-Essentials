@@ -144,7 +144,9 @@ nav a {
     margin: 0 auto;
     text-align: center;
 }
-
+#backtotop {
+    color:#161616;
+}
 
 /*styling for contact form in contact.html*/
 #contactbody {
