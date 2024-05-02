@@ -98,6 +98,8 @@ The main ones were the text on the hero image causing the rest of the content to
 
 Another bug was after using https://codebeautify.org/ to re-format the style.css, which essentially condensed it to the point of breaking by rearranging and merging rules. Ultimately, I resorted to taking my last comitted css from the working live site via my GitHub-repository and re-inserting the functional code and condensing it by hand.
 
+One issue I cannot get rid of is that the frameborder on the iframe causes (border x2 px) horizontal scroll, but if I don't remove it, the validator is causing issues, and it doesn't seem to work in the css.
+
 ## IDE
 
 All coding has been done in CodeAnywere and committed to the GitHub-respository.
