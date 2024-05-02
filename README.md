@@ -54,7 +54,18 @@ This section is the contact information, as well as a link to google maps for ea
 
 ### Footer
 ![alt text](assets/images/images-for-readme/footer.png)
-This footer contains links to Facebook, Instagram, YouTube and X/Twitter
+The footer contains links to Facebook, Instagram, YouTube and X/Twitter, so the user can find more information, inspiration and content from the club and its users.
+
+### Contact page
+![alt text](assets/images/images-for-readme/contact-page.png)
+The site's second page greets the user with another calming photo of a lotus flower, often associated with yoga. The aim here is to create a distraction free, relaxing background while the user can insert their contact information. The form has been created to require name and email, while phone number and the message is optional. It includes a radio button selector to indicate how the user preferres to be contacted.
+At the bottom of the contact form element, the user will find the same links to social media for easy access. They are included here to avoid breaking the calming image with a footer. 
+The form has been given a slight background to raise it from the picture.
+
+### Contact page nav bar
+![alt text](assets/images/images-for-readme/contact-page-nav.png)
+The navbar has been repeated on the contact page, but with the link to the current page removed for simplicity. Here the user can navigate back to the other sections of the index.html page. 
+
 
 # Testing:
 
