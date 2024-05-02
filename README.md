@@ -90,11 +90,11 @@ Clicking the link "Yoga" will lead the user to an introduction to the three diff
 
 Clicking the link "Gallery" will lead the user to the image gallery, found on the main page.
 
-![alt text](gallery-test.png)
+![alt text](images-for-readme/gallery-test.png)
 
 Clicking the link "Contact me" will lead the user to the separate page with a contact form.
 
-![alt text](contact-test-1.png)
+![alt text](images-for-readme/contact-test.png)
 
 Attached to the nav bar, user will see an audio box, provided a screen width of over 400px. Clicking play and increasing the volume will add audio of chirping birds.
 
