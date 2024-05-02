@@ -66,8 +66,14 @@ The form has been given a slight background to raise it from the picture.
 ![alt text](assets/images/images-for-readme/contact-page-nav.png)
 The navbar has been repeated on the contact page, but with the link to the current page removed for simplicity. Here the user can navigate back to the other sections of the index.html page. 
 
+### Alternative ideas to implement
+
+It could be beneficial to users with a library of video segments on different exercises and yoga styles.
+
 
 # Testing:
+
+The site has been simulated via Chromes Devtools on Galaxy Z Fold 5, iPad Pro and responsive setting through all breakpoints listed in the media queries.
 
 [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandylang81.github.io%2FPortfolio-Project-1---HTML-CSS-Essentials%2Findex.html)
 
@@ -76,7 +82,13 @@ The navbar has been repeated on the contact page, but with the link to the curre
 Lighthouse score:
 ![alt text](assets/images/images-for-readme/lighthouse-score.png)
 
+## Deployment
 
+The site is deployed with GitHub. 
+
+A link to the repository can be found [here](https://github.com/AndyLang81/Portfolio-Project-1---HTML-CSS-Essentials) 
+
+The live page can be found by going to the top bar and selecting Settings > Pages > GitHub Pages.
 
 ## Bugs
 
@@ -88,14 +100,18 @@ Another bug was after using https://codebeautify.org/ to re-format the style.css
 
 ## IDE
 
-All coding has been done in CodeAnywere and committed to the GitHub-respository
+All coding has been done in CodeAnywere and committed to the GitHub-respository.
 
 ## Credits:
 
 Code:
 Favicons and Social Media link icons from Fontawesome is a reuse from Code Insititutes Love Running-project.
 
+Contact page: The idea to the contact page, although it has different content, layout and picture, is reused from Code Insititutes Love Running-project.
+
 Thanks to my mentor Rohit for good guidance. 
+
+All skills are acquired by Code Institutes HTML bascis.
 
 ## Content:
 Filler text for About Us, Trainers and Types of Yoga is AI generated as the project is fictive.
