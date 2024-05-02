@@ -204,7 +204,11 @@ nav a {
         display: none;
     }
     #contactform {
-        top: 50%;
+        top: 70%;
+        
+    }
+    #message {
+        width: 85%;
     }
 }
 
