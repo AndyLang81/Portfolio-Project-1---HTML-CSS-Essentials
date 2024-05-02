@@ -33,10 +33,28 @@ what a user could expect from participating in the classes, and whom they'd be t
 
 ### Meet the trainers
 
-This section offers the user an introduction to the trainers as a continuation from the previous section, 
+![alt text](assets/images/images-for-readme/Trainers.png)
 
+This section offers the user an introduction to the tree trainers as a continuation from the previous section, what a trainer has to offer the user, and what kind of yoga the trainer will be proficient in.
 
+Note: To avoid excessive length, I'll only include one trainer profile in the screenshot.
 
+### Gallery
+![alt text](assets/images/images-for-readme/gallery.png)
+
+Here the user can experience what the classes could look like as well as calming photos to lighten mood and provide a relaxing atmosphere, making the user more open to contact. It's set up in a scaling mason style layout, that'll compress to down to 2 and 1 column depending on screen size.
+
+### Call to action
+![alt text](assets/images/images-for-readme/call-to-action.png)
+This section aims to convince the user to contact the club in order to register for classes by listing the positive outcomes of practicing yoga, as well as presenting a link to the contact page.
+
+### Contact info and map
+![alt text](assets/images/images-for-readme/contact-and-map.png)
+This section is the contact information, as well as a link to google maps for easy directions in case of a physical visit, even if it doesn't link to anything specific due to the lack of a functional API key. It also presents a user a link to send them back to the top of the page to avoid scrolling all the way back.
+
+### Footer
+![alt text](assets/images/images-for-readme/footer.png)
+This footer contains links to Facebook, Instagram, YouTube and X/Twitter
 
 # Testing:
 
@@ -46,6 +64,8 @@ This section offers the user an introduction to the trainers as a continuation f
 
 Lighthouse score:
 ![alt text](assets/images/images-for-readme/lighthouse-score.png)
+
+
 
 ## Bugs
 
