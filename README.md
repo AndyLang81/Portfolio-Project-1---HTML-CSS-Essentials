@@ -96,6 +96,8 @@ Clicking the link "Contact me" will lead the user to the separate page with a co
 
 ![alt text](contact-test-1.png)
 
+Attached to the nav bar, user will see an audio box, provided a screen width of over 400px. Clicking play and increasing the volume will add audio of chirping birds.
+
 ### Contact form testing:
 
 User clicking submit without entering a name will result in an error requiring a name to be entered.
