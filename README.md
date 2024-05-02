@@ -193,6 +193,10 @@ One issue I cannot get rid of is that the frameborder on the iframe causes (bord
 
 All coding has been done in CodeAnywere and committed to the GitHub-repository.
 
+## Technology: 
+
+All coding language used is HTML and CSS as taught by Code Institute.
+
 ## Credits:
 
 Code:
