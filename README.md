@@ -2,10 +2,9 @@
 
 [Link to live project](https://andylang81.github.io/Portfolio-Project-1---HTML-CSS-Essentials/index.html)
 
-Zenflow yoga is a testing site based on the fictive yoga club. It is target the potential clients in search of a place to practice yoga and socialize in New Zealand or online. The site is useful to see what the club is about, who they could be training with, what type of yoga they could be practicing and where to find the club.
+Zenflow Yoga is a testing site based on the fictive yoga club. It is targeting the potential clients in search of a place to practice yoga and socialize in New Zealand or online. The site is useful to see what the club is about, who they could be training with, what type of yoga they could be practicing and where to find the club.
 
 ![alt text](/images-for-readme/responsiveness.png)
-
 
 
 # Features
@@ -18,17 +17,15 @@ On the main page, index.html, the bar will link to multiple sections on the page
 
 Attached to the nav bar is an audio player for a relaxing background of birds chirping and a slight breeze. It needs to be manually initiated and will not auto play.
 
-
 ### Landing page
 ![alt text](/images-for-readme/landinghero.png)
 
-The landing features a calm hero image with a simple text with the clubs name, setting the stage for relaxation and simplicity. 
-
+The landing features a calm hero image with a simple text with the club’s name, setting the stage for relaxation and simplicity. 
 
 ### About us
 ![alt text](/images-for-readme/about-us.png)
 
-This section details who Zenflow is, a motivational section to explain that no matter the users skill level, they might still find something relevant, 
+This section details who Zenflow is, a motivational section to explain that no matter the user’s skill level, they might still find something relevant, 
 what a user could expect from participating in the classes, and whom they'd be training with. 
 
 ### Meet the trainers
@@ -46,7 +43,7 @@ Here the user can experience what the classes could look like as well as calming
 
 ### Call to action
 ![alt text](/images-for-readme/call-to-action.png)
-This section aims to convince the user to contact the club in order to register for classes by listing the positive outcomes of practicing yoga, as well as presenting a link to the contact page.
+This section aims to convince the user to contact the club to register for classes by listing the positive outcomes of practicing yoga, as well as presenting a link to the contact page.
 
 ### Contact info and map
 ![alt text](/images-for-readme/contact-and-map.png)
@@ -58,7 +55,7 @@ The footer contains links to Facebook, Instagram, YouTube and X/Twitter, so the 
 
 ### Contact page
 ![alt text](/images-for-readme/contact-page.png)
-The site's second page greets the user with another calming photo of a lotus flower, often associated with yoga. The aim here is to create a distraction free, relaxing background while the user can insert their contact information. The form has been created to require name and email, while phone number and the message is optional. It includes a radio button selector to indicate how the user preferres to be contacted.
+The site's second page greets the user with another calming photo of a lotus flower, often associated with yoga. The aim here is to create a distraction free, relaxing background while the user can insert their contact information. The form has been created to require name and email, while phone number and the message is optional. It includes a radio button selector to indicate how the user prefers to be contacted.
 At the bottom of the contact form element, the user will find the same links to social media for easy access. They are included here to avoid breaking the calming image with a footer. 
 The form has been given a slight background to raise it from the picture.
 
@@ -69,7 +66,6 @@ The navbar has been repeated on the contact page, but with the link to the curre
 ### Alternative ideas to implement
 
 It could be beneficial to users with a library of video segments on different exercises and yoga styles.
-
 
 # Testing:
 
@@ -100,30 +96,29 @@ I've encountered several bugs in the process.
 
 The main ones were the text on the hero image causing the rest of the content to shrink on smaller screen sizes. I solved it by going over each section with Chrome dev tools to find the width of each object from top to bottom, finally identifying the issue and then reworking my media queries to correctly scale the text to fit within all screen sizes.
 
-Another bug was after using https://codebeautify.org/ to re-format the style.css, which essentially condensed it to the point of breaking by rearranging and merging rules. Ultimately, I resorted to taking my last comitted css from the working live site via my GitHub-repository and re-inserting the functional code and condensing it by hand.
+Another bug was after using https://codebeautify.org/ to re-format the style.css, which essentially condensed it to the point of breaking by rearranging and merging rules. Ultimately, I resorted to taking my last committed css from the working live site via my GitHub-repository and re-inserting the functional code and condensing it by hand.
 
 One issue I cannot get rid of is that the frameborder on the iframe causes (border x2 px) horizontal scroll, but if I don't remove it, the validator is causing issues, and it doesn't seem to work in the css.
 
 ## IDE
 
-All coding has been done in CodeAnywere and committed to the GitHub-respository.
+All coding has been done in CodeAnywere and committed to the GitHub-repository.
 
 ## Credits:
 
 Code:
-Favicons and Social Media link icons from Fontawesome is a reuse from Code Insititutes Love Running-project.
+Favicons and Social Media link icons from Fontawesome is a reuse from Code Institute’s Love Running project.
 
-Contact page: The idea to the contact page, although it has different content, layout and picture, is reused from Code Insititutes Love Running-project.
+Contact page: The idea to the contact page, although it has different content, layout and picture, is reused from Code Institute’s Love Running project.
 
 Thanks to my mentor Rohit for good guidance. 
 
-All skills are acquired by Code Institutes HTML bascis.
+All skills are acquired by Code Institutes HTML basics.
 
 ## Content:
 Filler text for About Us, Trainers and Types of Yoga is AI generated as the project is fictive.
 
 Text for categories, nav links, headings are written by the developer.
-
 
 
 ## Media sources
@@ -132,3 +127,5 @@ Images: https://unsplash.com/
 Audio: https://freesound.org/
 
 Icons: https://fontawesome.com, https://icons8.com/
+
+
