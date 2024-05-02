@@ -88,7 +88,7 @@ Clicking the link "Yoga" will lead the user to an introduction to the three diff
 
 ![alt text](images-for-readme/yoga-test.png)
 
-Clicking the link "Gallery" will lead the user to the image gallery, found on the main page.
+Clicking the link "Gallery" will lead the user to the image gallery, found on the main page, containing 17 images, in 4, 2, 1 colums depending on screen size.
 
 ![alt text](images-for-readme/gallery-test.png)
 
